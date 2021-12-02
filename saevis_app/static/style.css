@@ -16,13 +16,12 @@ a {
 /* navigation bar 스타일 지정 */
 .navbar {
     display: flex;
-    position: fixed;
+    position: sticky;
+    top: 0;
     justify-content: space-between;
     align-items: center;
     background-color: var(--accent-color);
     padding: 8px 12px;
-    top: 0;
-    width: 100%;
 }
 
 .navbar a {
